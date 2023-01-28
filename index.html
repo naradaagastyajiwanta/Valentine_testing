@@ -12,6 +12,9 @@
     rel="stylesheet"
   />
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
   <link
     href="https://hanyauntukmu.likeadream.repl.co/style.css"
     rel="stylesheet"
@@ -26,6 +29,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
   />
   <link rel="stylesheet" href="style.css" />
+
   <head>
     <title>MLDNAJ</title>
   </head>
@@ -49,6 +53,15 @@
         height="100%"
       /> -->
     </div>
+    <div class="bg_heart"></div>
+    <script src="scriptlove.js"></script>
+    <!-- partial:index.partial.html -->
+    <div class="cloud"></div>
+    <div class="cloud_two"></div>
+    <div class="cloud_three"></div>
+    <div class="cloud_four"></div>
+    <div class="cloud_five"></div>
+    <!-- partial -->
 
     <div id="Content">
       <div class="image">
@@ -117,10 +130,10 @@
 
       async function mulaitanya() {
         var { isConfirmed: tanyawal } = await swals.fire({
-          title: `Halo Dearest Madu kamu bisa klik tombol dibawah ya`,
+          title: `Rahayu, Om Swastiyastu Dearest Madu....🙏\n Kamu bisa klik tombol dibawah ini yahh untuk mulai...`,
           imageUrl: "/asset/mld.png",
-          imageWidth: 170,
-          imageHeight: 120,
+          imageWidth: 320,
+          imageHeight: 220,
           confirmButtonText: "Okay",
           allowOutsideClick: false,
           showCancelButton: false,
@@ -134,33 +147,79 @@
 
       async function kuis() {
         await swalst.fire({
-          title: "Lelah ya hari ini? :(",
+          title:
+            "Hai! Terima kasih telah membuka pesan ini 😊🙏 <br>Senangnya bisa mengirim pesan ini ke Madu...",
+          imageUrl:
+            "https://media.tenor.com/images/83d6a5ed40a24164dfe1e4e19fad23d9/tenor.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        });
+        await swalst.fire({
+          title: "How's Your day? Mungkin kadang lagi lelah yah....",
           imageUrl: "https://i.postimg.cc/02wF21b1/peach-goma.gif",
           imageWidth: 120,
           imageHeight: 120,
         });
         await swalst.fire({
-          title: "Its okay, selamat ya udah bisa lewatin semua hal dihari ini",
+          title:
+            "Its okay, selamat ya udah bisa lewatin semua hal selama ini...",
           imageUrl: "https://i.postimg.cc/g06FWScx/tepukbadan.gif",
           imageWidth: 120,
           imageHeight: 120,
         });
         await swalst.fire({
-          title: "Jangan lupa minum ..",
+          title: "Jangan lupa minum & Makan yang banyak ...",
           imageUrl: "https://i.postimg.cc/vZWmnK2p/gigit.gif",
           imageWidth: 120,
           imageHeight: 120,
         });
         await swalst.fire({
-          title: "Maaf aku hanya bisa support kamu aja &#129402;",
+          title: "Maaf aku hanya bisa support kamu aja dari jauh &#129402;",
           imageUrl: "https://i.postimg.cc/SsmkcNY9/bear-cute-1.gif",
           imageWidth: 120,
           imageHeight: 120,
         });
-        text = "You always be my sweetheart ";
+        await swalst.fire({
+          title: "Btw, hari ini hari spesial lho!😁 &#129402;",
+          imageUrl:
+            "https://c.tenor.com/906nGAL7Xw0AAAAj/mochi-peachcat-cute-cat.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        });
+        await swalst.fire({
+          title:
+            "14 Februari Yay!🎉 <br>Walau hari ini ulangan ku mulai, \n but... :')  ",
+          imageUrl: "https://c.tenor.com/nthqT6mfB5gAAAAj/hearts-love.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        });
+        await swalst.fire({
+          title: "Happy Valentine's Day!!! 💕",
+          imageUrl:
+            "https://pic4.zhimg.com/v2-476b85783b816fef1d2c56ebe247cc0f_b.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        });
+        await swalst.fire({
+          title: "Can't Wait to See You Soon &#129402;",
+          imageUrl:
+            "https://www.icegif.com/wp-content/uploads/miss-you-icegif.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        });
+        await swalst.fire({
+          title:
+            "Jaga diri baik-baik yahhh... Mungkin sebentar lagi kita ketemu... ",
+          imageUrl:
+            "https://c.tenor.com/1jKnE-r5T-EAAAAC/milk-and-mocha-bears-sad.gif",
+          imageWidth: 120,
+          imageHeight: 120,
+        });
+
+        text = "Happy Valentine's Day once again Madu! ";
         emotnama = "&#10084;";
         text2 =
-          "Jaga diri baik-baik yahhh... Mungkin sebentar lagi kita ketemu... Love You... ";
+          "May your days always be filled with Love! <br>Titip salam buat semua! <br>-NAJ ";
         showDiv();
       }
       mulaitanya();
