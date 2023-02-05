@@ -24,7 +24,7 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   audio.src = `https://sndup.net/tqdx/d`;
-  cover.src = `/asset/mld2.jpg`;
+  cover.src = `/asset/mld3.jpg`;
 }
 
 // Play song

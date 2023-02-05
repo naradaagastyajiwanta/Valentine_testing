@@ -4,32 +4,32 @@
   box-sizing: border-box;
 }
 
-/* body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  font-family: "Lato", sans-serif;
-  margin: 0;
-} */
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .music-containermain {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22%;
+  margin-bottom: maximum;
+  width: max-content;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: flex-end;
-  margin-top: 22%;
+  z-index: 10;
 }
 /* styling the outer music container */
 .music-container {
-  width: min-content;
+  width: max-content;
   background-color: #efefef;
   display: flex;
   align-self: center;
   justify-self: flex-end;
   padding: 20px 30px;
   position: relative;
-  margin: 50px 0;
+  margin: 55px 0;
   z-index: 10;
   border-radius: 20px;
   box-shadow: 14px 10px 46px -10px rgba(0, 0, 0, 0.64);
@@ -168,7 +168,7 @@
   -webkit-border-radius: 50%;
   border-radius: 50%;
   position: absolute;
-  top: 50%;
+  top: 600px;
   left: 50%;
   margin-top: -30px;
   margin-left: -30px;
@@ -181,25 +181,30 @@
 
 .cloud_two {
   top: 52%;
-  left: 28%;
+  left: 10%;
+  right: 20%;
   animation-duration: 8s;
   z-index: 1;
 }
 .cloud_three {
   top: 20%;
-  left: 70%;
+  left: 80%;
+  right: 20%;
+
   animation-duration: 18s;
   z-index: 3;
 }
 .cloud_four {
-  top: 20%;
+  top: 22%;
   left: 20%;
+  right: 20%;
   animation-duration: 28s;
   z-index: 3;
 }
 .cloud_five {
   top: 49%;
-  left: 80%;
+  left: 1500px;
+
   animation-duration: 15s;
   z-index: 1;
 }
