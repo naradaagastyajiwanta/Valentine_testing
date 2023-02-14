@@ -23,7 +23,7 @@ loadSong(songs[songIndex]);
 // Update song details
 function loadSong(song) {
   title.innerText = song;
-  audio.src = `https://sndup.net/tqdx/d`;
+  audio.src = `/bg.mp3`;
   cover.src = `/asset/mld3.jpg`;
 }
 
